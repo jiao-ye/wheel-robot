@@ -35,7 +35,7 @@ void Pwm_Init()
 	TIM_ARRPreloadConfig(TIM1,ENABLE);
 	TIM_CtrlPWMOutputs(TIM1, ENABLE);
 	TIM_Cmd(TIM1,ENABLE);
-	
+	  
 }
 
 void Set_Pwm(uint8_t channel, uint16_t value)
